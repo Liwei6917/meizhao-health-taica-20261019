@@ -1,0 +1,23 @@
+{
+  "format": "meizhao-faiss-json-v1",
+  "title": "每朝健康：生活紀錄原型使用指南 v1.0",
+  "built_at": "2026-11-02T13:25:28.123558+08:00",
+  "source_kind": "本次作業自編技術文件，AI協助整理；不是醫療文獻",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "prefixes": {
+    "documents": "passage: ",
+    "queries": "query: "
+  },
+  "normalized": true,
+  "metric": "inner_product",
+  "dimension": 384,
+  "chunk_size": 500,
+  "chunk_overlap": 100,
+  "chunks": 17,
+  "sha256": {
+    "index.faiss": "ed074cba8d8e3255e31db1b2a7569af2f66f1e3ee29ec843bdff2a6840cc9687",
+    "chunks.json": "d5b6f8d0fcb24d70cc370f91d0c718120cad07b93566779716d2bfa090ed8679",
+    "source.txt": "fe537d6494d61e779f50a5747c92cd225e5c934923d20eab0e67f7c19a40f294"
+  }
+}
