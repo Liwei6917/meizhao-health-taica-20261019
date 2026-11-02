@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "check": "ZIP獨立重載、384維與筆數一致",
+      "passed": true
+    },
+    {
+      "check": "實際神經向量已正規化",
+      "passed": true
+    },
+    {
+      "check": "每段都有可對照來源",
+      "passed": true
+    },
+    {
+      "check": "8個具體問題在前三片段命中章節",
+      "passed": true
+    },
+    {
+      "check": "檢索模式明示未生成且沒有模型名稱",
+      "passed": true
+    },
+    {
+      "check": "ZIP校驗錯誤會拒絕",
+      "passed": true
+    },
+    {
+      "check": "未知ZIP路徑不解壓",
+      "passed": true
+    },
+    {
+      "check": "片段被修改時拒絕載入",
+      "passed": true
+    },
+    {
+      "check": "不修改原本聊天資料且清理metadata",
+      "passed": true
+    },
+    {
+      "check": "生成提示附實際原文與來源編號",
+      "passed": true
+    },
+    {
+      "check": "拒絕空白或過長問題0",
+      "passed": true
+    },
+    {
+      "check": "拒絕空白或過長問題1001",
+      "passed": true
+    },
+    {
+      "check": "保存的對話來自真實本機模型選句",
+      "passed": true
+    },
+    {
+      "check": "顯示的選句逐字對應檢索原文",
+      "passed": true
+    },
+    {
+      "check": "真實生成保留必要確認按鈕",
+      "passed": true
+    },
+    {
+      "check": "真實生成不把未回覆當未完成",
+      "passed": true
+    },
+    {
+      "check": "資料不足題明確拒絕補編氣溫",
+      "passed": true
+    },
+    {
+      "check": "實際生成沒有捏造未檢索來源",
+      "passed": true
+    },
+    {
+      "check": "有答案的兩題附上文件章節引用",
+      "passed": true
+    },
+    {
+      "check": "實際Gradio介面建構",
+      "passed": true
+    },
+    {
+      "check": "交付文字與程式未含真實Groq金鑰",
+      "passed": true
+    }
+  ],
+  "note": "本機實際向量與本機LLM、介面測試；未宣稱在使用者Colab或Groq執行。"
+}

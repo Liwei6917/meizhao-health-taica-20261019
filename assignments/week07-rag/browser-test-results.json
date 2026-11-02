@@ -1,0 +1,33 @@
+{
+  "source": "CUA操作127.0.0.1:7877本機Gradio的實際畫面，不是使用者Colab",
+  "checks": [
+    {
+      "check": "Groq未勾選同意時阻止送出",
+      "passed": true
+    },
+    {
+      "check": "檢索模式顯示S05且標明未呼叫模型",
+      "passed": true
+    },
+    {
+      "check": "清除後空白輸入顯示提示",
+      "passed": true
+    },
+    {
+      "check": "Gradio本機模型選出四個小卡步驟並引用S05",
+      "passed": true
+    },
+    {
+      "check": "可展開真實模型JSON與quote_verified",
+      "passed": true
+    },
+    {
+      "check": "未回覆引用未記錄規則S03",
+      "passed": true
+    },
+    {
+      "check": "氣溫問題引用資料不足規則且未編造數字",
+      "passed": true
+    }
+  ]
+}
